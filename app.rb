@@ -7,7 +7,7 @@ class Battle < Sinatra::Base
   end
 
   get '/' do
-    'Ready for battle!'
+    'Yay! Testing infrastructure is working!'
   end
 
   run! if app_file == $0
