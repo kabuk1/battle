@@ -10,11 +10,11 @@ describe 'Player' do
     end
   end
 
-  # describe '#health_points' do
-  #   it 'returns the total health points' do
-  #     expect(beavis.health_points).to eq described_class::DEFAULT_HEALTH_POINTS
-  #   end
-  # end
+  describe '#health_points' do
+    it 'returns the total health points' do
+      expect(beavis.health_points).to eq Player::DEFAULT_HEALTH_POINTS
+    end
+  end
 
   # describe '#receive_damage' do
   #   it 'reduces health points' do
