@@ -10,18 +10,37 @@
           1,
           0,
           null,
-          null,
-          1,
           1,
           null,
-          null,
           1,
-          1,
-          1,
-          1,
+          4,
           null,
           null,
           1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/battle/spec/features/web_helpers.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
           null
         ]
       },
@@ -32,9 +51,18 @@
           1,
           1,
           1,
-          1,
-          1,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/leslie/makersacademy/battle/spec/features/hit_points_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -50,6 +78,6 @@
         ]
       }
     },
-    "timestamp": 1623885495
+    "timestamp": 1623936371
   }
 }
