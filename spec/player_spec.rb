@@ -18,15 +18,15 @@ describe 'Player' do
 
   describe '#receive_damage' do
     it 'reduces health points' do
-      expect { butthead.receives_damage }.to change { butthead.health_points }.by(-10)
+      expect { butthead.takes_damage }.to change { butthead.health_points }.by(-10)
     end
   end
 
-  # describe '#attack' do
-  #   it 'the attack damages the player' do
-  #     expect(butthead).to receive(:receive_damage)
-  #     beavis.attack(butthead)
-  #   end
-  # end
+  describe '#attack' do
+    it 'the attack damages the player' do
+      expect(butthead).to receive(:takes_damage)
+      beavis.attack(butthead)
+    end
+  end
 
 end
