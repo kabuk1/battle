@@ -16,11 +16,11 @@ describe 'Player' do
     end
   end
 
-  # describe '#receive_damage' do
-  #   it 'reduces health points' do
-  #     expect { butthead.receives_damage }.to change { butthead.health_points }.by(-10)
-  #   end
-  # end
+  describe '#receive_damage' do
+    it 'reduces health points' do
+      expect { butthead.receives_damage }.to change { butthead.health_points }.by(-10)
+    end
+  end
 
   # describe '#attack' do
   #   it 'the attack damages the player' do
